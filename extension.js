@@ -46,21 +46,21 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "BasementBot",
+      botName: "BasementMusic BOT",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupCap: 10, // 1-200
+      startupVolume: 30, // 0-100
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 360,
       afkRemoval: true,
-      maximumDc: 60,
+      maximumDc: 120,
       bouncerPlus: true,
       blacklistEnabled: true,
       lockdownEnabled: false,
@@ -70,7 +70,7 @@
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: false,
@@ -80,8 +80,8 @@
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
-      ["mix", "You played a mix, which is against the rules. "],
+      ["history", "Tahle písnicka je uz v historii. "],
+      ["mix", "Hrajes pisnicku ktera je proti pravidlum. "],
       ["sound", "The song you played had bad sound quality or no sound. "],
       ["nsfw", "The song you contained was NSFW (image or sound). "],
       ["unavailable", "The song you played was not available for some users. "]
@@ -89,8 +89,8 @@
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: false,
-      motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motdInterval: 3,
+      motd: "[FaceBook]»Podpor nas LIKEM na facebooku! http://facebook.com/akafukacz",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
