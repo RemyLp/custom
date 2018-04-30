@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "RemyLp";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,14 +46,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: 'basicBot',
-        language: 'english',
+        botName: 'HexBot',
+        language: 'czech',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 10, // 1-200
+        startupVolume: 20, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         autoskip: false,
         smartSkip: true,
@@ -93,7 +93,7 @@
         afkRankCheck: 'ambassador',
         motdEnabled: false,
         motdInterval: 5,
-        motd: 'Temporary Message of the Day',
+        motd: 'Vítej mezi nama!',
         filterChat: true,
         etaRestriction: false,
         welcome: true,
